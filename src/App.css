@@ -1,38 +1,114 @@
-.App {
+.App{
+  width: 100%;
+  height: 100vh;
+  overflow: none;
+  color: #464646;
+}
+.App >header> .Head {
+  width: 100%;
+  height:9%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-wrap: wrap;
+  box-shadow: 0px 2px 5px 2px grey;
+  color:#6E6E6E ;
+}
+.About > P:nth-child(1){
+  color: black;
+}
+.About > p:nth-child(2){
+  margin-top: -2rem;
+  color: #2CE3B2;
+  font: 900;
+} 
+.Head >div {
+  font-size: 1.2rem;
+  margin: .1rem 2rem;
+}
+
+.content{
+  display: flex;
+}
+.content > .image{
+  height: 88.5vh;
+  width: 40vw;
+}
+
+img {
+  height: inherit;
+  width: inherit;
+  object-fit: fill;
+}
+.info {
+  padding: 0rem 9rem;  
+
+}
+.info > header{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info > header >p:nth-child(1){
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info > header >p:nth-child(2){
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: -2.5rem;
+  color:#2CE3B2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.description > p:nth-child(1){
+  font-size: 1.3rem;
+}
+.description > p:nth-child(1) > span{
+  color:#2CE3B2;
+}
+.description > :nth-child(2){
+  font-size: 1rem;
+}
+
+.form h1{
+  font-size: 1.3rem;
+  color: black;
+  opacity: .6;
+}
+
+.form >div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.form > div > div> p:nth-child(1), p:nth-child(4), p:nth-child(7){
+  color:#2CE3B2;
+}
+.form > div > div> p:nth-child(2), p:nth-child(5), p:nth-child(8){
+  font-size: 0.8rem;
+  margin-top: -.5rem;
+  
+}
+.form > div > div> p:nth-child(3), p:nth-child(6), p:nth-child(9){
+  font-size: 0.8rem;
+}
+.form > div > div> p:nth-child(3n+0){
+  margin-top: -1.5rem;
+  font-size: 300;
 }
 
-.App-link {
-  color: #61dafb;
-}
+ .footer{
+   padding-top: 1.5rem;
+   display: flex;
+   justify-content: space-evenly;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .footer > div{
+   color:#707070;
+    height: 6rem;
+    width: 9rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 2px grey;
+ }
+
+ .footer > div >p:first-child{  
+  font-size: 1.1rem;
+ }

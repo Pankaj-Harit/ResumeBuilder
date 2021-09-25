@@ -1,0 +1,18 @@
+.AboutMe{ height: 100vh; width: 100vw; color: #464646; display: flex; justify-content: flex-start; flex-direction: row; overflow: hidden;}
+.Image{height:100%; width: 40%; }
+.Image img{ height: 100%;width: 100%;}
+.About_Details{height: 100%;width: 60%;padding: 90px 0 0 100px;}
+.Heading {width: 90%; font-size: 30px;text-align: center;padding: 0;}
+.Heading p{ margin: -30px;}
+.Heading p:nth-child(2){color: #2CE3B2;}
+.About_intro h2{ padding-top: 15px;}
+.About_intro p{ font-size: 16px;}
+.About_intro span{ color:#2CE3B2;}
+.Skills{ height: 40%;width: 100%;display: flex; justify-content: flex-start;margin: 1px;}
+.Skills_1{  height: 100%; width: 50%; }
+.Skills_2{ height: 100%; width: 50%; }
+.Skills  p:nth-child(1), p:nth-child(4), p:nth-child(7){  color: #2CE3B2;font-size: 16px;}
+.Skills  p:nth-child(2), p:nth-child(5), p:nth-child(8){  font-size: 12px;}
+.Skills  p:nth-child(3), p:nth-child(6), p:nth-child(9){  margin-top: -20px; color:#999999;}
+.footer{ height: 20%;width: 100%;display: flex;justify-content: space-evenly;flex-wrap: wrap;margin-top: -15px; }
+.footer .footer_1{ height: 75%;width: 17%;text-align: center;border-radius: 8px;;box-shadow: 3px 0px 10px rgba(0,0,0,0.2); }

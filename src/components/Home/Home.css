@@ -1,0 +1,10 @@
+.HomeScreen{height: 100vh; width: 100%; background: url('../../images/HomeImage.png'); background-size: cover; color: #fff;}
+.Home_info{ height: 100%; width: 100%; background-color: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center;}
+.Home_intro{text-align: center;}
+.Home_intro p:nth-child(1), .Home_intro p:nth-child(2){ font-size: 36px; margin: 0;}
+.Home_intro p:nth-child(3){ font-size: 45px; margin: 0%;}
+.Home_intro p:nth-child(3) span{color: #2CE3B2;}
+.HireMe{margin-top: 20px;padding: 10px 35px;background-color:transparent;color:#fff;font-size: 18px;border: 2px solid #2CE3B2;border-radius: 40px;}
+.Down_Arrow{position: absolute;left: 50%;bottom: 2%;}
+.SocialIcons{ position: absolute; right: 3%; bottom: 2%; display: flex; align-items: flex-start; flex-direction: column}
+.Icon{ margin-bottom: 10px;}

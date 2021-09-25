@@ -1,0 +1,3 @@
+.ImageIcon{ position: absolute; top: 15%;  right: 5%;  text-align: center;}
+.ImageIcon img{  height: 150px;width: 150px;}
+.ImageIcon p{ margin: 0;font-size:20px;}
